@@ -1,0 +1,26 @@
+export const COLORS = {
+  primaryRed: '#F02E36',
+  primaryBlue: '#4057DA',
+  darkNavy: '#090D1C',
+  background: '#FFFFFF',
+  surface: '#F7F8FA',
+  cardBackground: '#FFFFFF',
+  cardBorder: '#E2E8F0',
+  text: '#171717',
+  secondaryText: '#6B7280',
+  mutedText: '#9CA3AF',
+  border: '#E5E7EB',
+  divider: '#F1F5F9',
+  success: '#16A34A',
+  successLight: '#DCFCE7',
+  warning: '#F59E0B',
+  warningLight: '#FEF3C7',
+  error: '#DC2626',
+  errorLight: '#FEE2E2',
+  gold: '#D97706',
+  goldLight: '#FEF9C3',
+  shadowColor: '#1E293B',
+  overlay: 'rgba(15, 23, 42, 0.65)',
+} as const;
+
+export type ColorType = typeof COLORS;
